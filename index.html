@@ -1,273 +1,12 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elaf Almanea | Data Scientist & AI Engineer</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
-          },
-          colors: {
-            brand: {
-              purple: '#3b1238',
-              accent: '#6b2163',
-              light: '#faf8f5',
-            }
-          }
-        }
-      }
-    }
-  </script>
-</head>
-<body class="bg-[#fcfbf9] text-slate-800 antialiased font-sans">
-
-  <!-- Navigation -->
-  <nav class="sticky top-0 z-50 bg-[#fcfbf9]/90 backdrop-blur-md border-b border-slate-200">
-    <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-      <a href="#" class="text-xl font-extrabold tracking-tight text-brand-purple">EA.</a>
-      <div class="space-x-6 text-sm font-semibold text-slate-600 hidden sm:flex">
-        <a href="#about" class="hover:text-brand-purple transition">About</a>
-        <a href="#skills" class="hover:text-brand-purple transition">Skills</a>
-        <a href="#projects" class="hover:text-brand-purple transition">Projects</a>
-        <a href="#credentials" class="hover:text-brand-purple transition">Credentials</a>
-      </div>
-      <a href="mailto:aylafmny2@gmail.com" class="text-sm font-semibold px-4 py-2 rounded-full bg-brand-purple text-white hover:bg-brand-accent transition shadow-sm">Contact</a>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <header class="max-w-5xl mx-auto px-6 pt-20 pb-16">
-    <div class="inline-block px-3 py-1 mb-4 rounded-full bg-purple-100 text-brand-purple text-xs font-bold uppercase tracking-wider">
-      Available for COOP & AI Roles
-    </div>
-    <h1 class="text-4xl sm:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight">
-      Hi, I'm <span class="text-brand-purple">Elaf Almanea</span>.
-    </h1>
-    <p class="text-xl sm:text-2xl text-slate-600 font-medium mt-3">Data Scientist & AI Engineer</p>
-    <p class="text-base sm:text-lg text-slate-600 max-w-2xl mt-4 leading-relaxed">
-      Bridging predictive modeling, intelligent recommendation systems, and scalable backend pipelines to solve real-world problems.
-    </p>
-
-    <!-- CTAs & Socials -->
-    <div class="mt-8 flex flex-wrap gap-4 items-center">
-      <a href="#projects" class="px-6 py-3 rounded-lg bg-brand-purple text-white font-semibold shadow hover:bg-brand-accent transition">View Featured Projects</a>
-      <a href="mailto:aylafmny2@gmail.com" class="px-6 py-3 rounded-lg border border-slate-300 font-semibold text-slate-700 hover:bg-slate-100 transition">Get In Touch</a>
-      <div class="flex gap-3 ml-2">
-        <a href="https://www.linkedin.com/in/elaf-a-636114284" target="_blank" class="p-3 rounded-lg border border-slate-200 text-slate-600 hover:text-brand-purple hover:border-brand-purple transition" title="LinkedIn">
-          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-        </a>
-        <a href="https://github.com/aylafmny2-cmd" target="_blank" class="p-3 rounded-lg border border-slate-200 text-slate-600 hover:text-brand-purple hover:border-brand-purple transition" title="GitHub">
-          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.
-
-261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-        </a>
-      </div>
-    </div>
-  </header>
-
-  <!-- About Section -->
-  <section id="about" class="max-w-5xl mx-auto px-6 py-12 border-t border-slate-200">
-    <h2 class="text-2xl font-bold text-slate-900">About Me</h2>
-    <div class="mt-4 text-slate-600 leading-relaxed text-base sm:text-lg max-w-3xl space-y-4">
-      <p>
-        Data Science senior at Majmaah University (GPA: 4.87/5.0, Class of 2026) focused on designing scalable, end-to-end Machine Learning architectures[span_0](start_span)[span_0](end_span). My technical expertise spans developing predictive pipelines, engineering recommendation systems, and serving production-ready models via robust RESTful APIs.
-      </p>
-      <p>
-        Beyond engineering, I bridge technical execution with operational leadership—managing finances for university tech hackathons and leading community workshops on cybersecurity and computing fundamentals.
-      </p>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="max-w-5xl mx-auto px-6 py-12 border-t border-slate-200">
-    <h2 class="text-2xl font-bold text-slate-900 mb-6">Technical Skills & Arsenal</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      
-      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-        <h3 class="font-bold text-brand-purple text-lg mb-3">Programming & Core</h3>
-        <div class="flex flex-wrap gap-2">
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">Python</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">R</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">SQL</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">Dart</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">C#</span>
-        </div>
-      </div>
-
-      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-        <h3 class="font-bold text-brand-purple text-lg mb-3">Machine Learning & Analytics</h3>
-        <div class="flex flex-wrap gap-2">
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">Predictive Modeling</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">Recommendation Systems</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">Classification</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">NLP</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">Scikit-learn</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">Caret</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">Pandas / NumPy</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">ggplot2</span>
-        </div>
-      </div>
-
-      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-        <h3 class="font-bold text-brand-purple text-lg mb-3">Web, APIs & Dashboards</h3>
-        <div class="flex flex-wrap gap-2">
-<span class="px-3 py-1 text-xs font-semibold rounded-md bg-purple-50 text-brand-purple">FastAPI</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-purple-50 text-brand-purple">RESTful APIs</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-purple-50 text-brand-purple">Flutter</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-purple-50 text-brand-purple">R Shiny</span>
-        </div>
-      </div>
-
-      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-        <h3 class="font-bold text-brand-purple text-lg mb-3">Cloud, DB & DevOps</h3>
-        <div class="flex flex-wrap gap-2">
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">MongoDB</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">Firebase</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">Render</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">shinyapps.io</span>
-          <span class="px-3 py-1 text-xs font-semibold rounded-md bg-slate-100 text-slate-700">Git / GitHub</span>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Featured Projects Section (Case Studies) -->
-  <section id="projects" class="max-w-5xl mx-auto px-6 py-12 border-t border-slate-200">
-    <h2 class="text-2xl font-bold text-slate-900 mb-8">Featured Case Studies</h2>
-    <div class="space-y-12">
-
-      <!-- Case Study 1: Terhal -->
-      <article class="bg-white rounded-2xl border border-slate-200 p-8 shadow-sm">
-        <div class="flex flex-wrap gap-2 mb-3">
-          <span class="px-2.5 py-1 text-xs font-bold rounded bg-purple-100 text-brand-purple">Graduation Project</span>
-          <span class="px-2.5 py-1 text-xs font-bold rounded bg-slate-100 text-slate-700">Full-Stack AI</span>
-        </div>
-        <h3 class="text-2xl font-bold text-slate-900">Terhal – Smart Saudi Tourism Recommendation Engine</h3>
-        <p class="text-slate-600 mt-2">An end-to-end, AI-powered travel planning mobile application delivering dynamic, personalized Saudi itineraries.</p>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 pt-6 border-t border-slate-100 text-sm">
-          <div>
-            <h4 class="font-bold text-slate-900 mb-1">The Problem</h4>
-            <p class="text-slate-600">Travelers face fragmented regional data and generic travel itineraries lacking real-time personalization and constraint awareness.</p>
-          </div>
-          <div>
-            <h4 class="font-bold text-slate-900 mb-1">The Architecture & Solution</h4>
-            <p class="text-slate-600">Developed a constraint-aware recommendation engine integrating a high-throughput FastAPI backend on Render with a responsive Flutter mobile client, storing localized destination catalogs in MongoDB.</p>
-          </div>
-        </div>
-
-        <div class="mt-6 flex flex-wrap gap-2">
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-100 font-mono text-slate-700">Flutter</span>
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-100 font-mono text-slate-700">FastAPI</span>
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-100 font-mono text-slate-700">Python</span>
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-100 font-mono text-slate-700">MongoDB</span>
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-100 font-mono text-slate-700">Firebase</span>
-        </div>
-
-        <div class="mt-6 pt-4 border-t border-slate-100 flex gap-4">
-          <a href="https://github.com/aylafmny2-cmd" target="_blank" class="text-sm font-bold text-brand-purple hover:underline">View Repository on GitHub &rarr;</a>
-        </div>
-      </article>
-
-      <!-- Case Study 2: Heart Disease Prediction -->
-      <article class="bg-white rounded-2xl border border-slate-200 p-8 shadow-sm">
-        <div class="flex flex-wrap gap-2 mb-3">
-          <span class="px-2.
-
-5 py-1 text-xs font-bold rounded bg-purple-100 text-brand-purple">Data Science Expo 2026</span>
-          <span class="px-2.5 py-1 text-xs font-bold rounded bg-slate-100 text-slate-700">Clinical Data Science</span>
-        </div>
-        <h3 class="text-2xl font-bold text-slate-900">Clinical Cardiovascular Risk Predictive Pipeline & Dashboard</h3>
-        <p class="text-slate-600 mt-2">Supervised clinical machine learning pipeline and interactive analytical dashboard for early cardiovascular screening.</p>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 pt-6 border-t border-slate-100 text-sm">
-          <div>
-            <h4 class="font-bold text-slate-900 mb-1">The Problem</h4>
-            <p class="text-slate-600">Clinicians require interpretable, data-driven screening tools to identify high-risk cardiovascular anomalies from multi-variable patient measurements before acute onset.</p>
-          </div>
-          <div>
-            <h4 class="font-bold text-slate-900 mb-1">The Architecture & Performance</h4>
-            <p class="text-slate-600">Evaluated multiple classifiers using R (<code class="text-xs bg-slate-100 px-1 py-0.5 rounded">caret</code>). <strong>Logistic Regression</strong> outperformed Decision Tree and KNN, achieving <strong>85.6% Accuracy</strong>, <strong>91.7% Sensitivity</strong>, <strong>78.6% Specificity</strong>, and <strong>0.851 Balanced Accuracy</strong> ($p=9.58 \times 10^{-11}$).</p>
-          </div>
-        </div>
-
-        <div class="mt-6 flex flex-wrap gap-2">
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-100 font-mono text-slate-700">R</span>
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-100 font-mono text-slate-700">Caret</span>
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-100 font-mono text-slate-700">ggplot2</span>
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-100 font-mono text-slate-700">R Shiny</span>
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-100 font-mono text-slate-700">shinyapps.io</span>
-        </div>
-
-        <div class="mt-6 pt-4 border-t border-slate-100 flex gap-4">
-          <a href="https://runupw-0-0.shinyapps.io/heart-disease-prediction/" target="_blank" class="text-sm font-bold text-brand-purple hover:underline">Launch Live Dashboard (shinyapps.io) &rarr;</a>
-        </div>
-      </article>
-
-      <!-- Case Study 3: Cuisine Compass -->
-      <article class="bg-white rounded-2xl border border-slate-200 p-8 shadow-sm">
-        <div class="flex flex-wrap gap-2 mb-3">
-          <span class="px-2.5 py-1 text-xs font-bold rounded bg-purple-100 text-brand-purple">AWS & Udacity Track</span>
-          <span class="px-2.5 py-1 text-xs font-bold rounded bg-slate-100 text-slate-700">Recommendation System</span>
-        </div>
-        <h3 class="text-2xl font-bold text-slate-900">Cuisine Compass – Constraint-Based Dietary Recommendation Engine</h3>
-        <p class="text-slate-600 mt-2">Machine learning nutrition assistant tailoring daily meal compositions to strict caloric limits and individual dietary restrictions[span_1](start_span)[span_1](end_span).</p>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6 pt-6 border-t border-slate-100 text-sm">
-          <div>
-            <h4 class="font-bold text-slate-900 mb-1">The Problem</h4>
-            <p class="text-slate-600">Traditional meal planning struggles to balance complex micronutrient constraints against strict user preferences simultaneously.</p>
-          </div>
-          <div>
-            <h4 class="font-bold text-slate-900 mb-1">The Architecture & Solution</h4>
-            <p class="text-slate-600">Engineered dense dietary feature matrices and applied vector cosine similarity in Python to match multi-attribute meal profiles to dynamic user requirements.</p>
-          </div>
-        </div>
-
-        <div class="mt-6 flex flex-wrap gap-2">
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-100 font-mono text-slate-700">Python</span>
-          <span class="text-xs px-2.
-5 py-1 rounded bg-slate-100 font-mono text-slate-700">Scikit-learn</span>
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-100 font-mono text-slate-700">Pandas</span>
-          <span class="text-xs px-2.5 py-1 rounded bg-slate-100 font-mono text-slate-700">AWS</span>
-        </div>
-
-        <div class="mt-6 pt-4 border-t border-slate-100 flex gap-4">
-          <a href="https://github.com/aylafmny2-cmd" target="_blank" class="text-sm font-bold text-brand-purple hover:underline">View Code & Notebooks on GitHub &rarr;</a>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- Credentials & Leadership -->
-  <section id="credentials" class="max-w-5xl mx-auto px-6 py-12 border-t border-slate-200">
-    <h2 class="text-2xl font-bold text-slate-900 mb-6">Certifications & Leadership</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      
-      <div>
-        <h3 class="font-bold text-brand-purple text-lg mb-3">Professional Certifications</h3>
-        <div class="space-y-3">
-          <div class="p-4 rounded-lg bg-white border border-slate-200 shadow-sm">
-            <h4 class="font-bold text-slate-900">IBM SkillsBuild AI Skills Accelerator</h4>
-            <p class="text-xs text-slate-500 mt-0.5">IBM (2026)[span_2](start_span)[span_2](end_span) • NLP, Generative AI & Data Analytics</p>
+<p class="text-xs text-slate-500 mt-0.5">IBM (2026) • NLP, Generative AI & Data Analytics</p>
           </div>
           <div class="p-4 rounded-lg bg-white border border-slate-200 shadow-sm">
             <h4 class="font-bold text-slate-900">Future AWS AI Scientist Track</h4>
-            <p class="text-xs text-slate-500 mt-0.5">AWS & Udacity Scholars Program (2025)[span_3](start_span)[span_3](end_span) • Predictive Modeling & Data Analysis</p>
+            <p class="text-xs text-slate-500 mt-0.5">AWS & Udacity Scholars Program (2025) • Predictive Modeling & Machine Learning</p>
           </div>
           <div class="p-4 rounded-lg bg-white border border-slate-200 shadow-sm">
             <h4 class="font-bold text-slate-900">HCIA-Security V3.0</h4>
-            <p class="text-xs text-slate-500 mt-0.5">Huawei & King Saud University[span_4](start_span)[span_4](end_span) • Information Security Fundamentals</p>
+            <p class="text-xs text-slate-500 mt-0.5">Huawei & King Saud University • Information Security Fundamentals</p>
           </div>
         </div>
       </div>
@@ -277,15 +16,15 @@
         <div class="space-y-3">
           <div class="p-4 rounded-lg bg-white border border-slate-200 shadow-sm">
             <h4 class="font-bold text-slate-900">Head of Finance | TechHub Club</h4>
-            <p class="text-xs text-slate-500 mt-0.5">Majmaah University[span_5](start_span)[span_5](end_span) • Budget planning, hackathons & resource allocation</p>
+            <p class="text-xs text-slate-500 mt-0.5">Majmaah University • Budget planning, hackathons & resource allocation</p>
           </div>
           <div class="p-4 rounded-lg bg-white border border-slate-200 shadow-sm">
             <h4 class="font-bold text-slate-900">McKinsey Forward Program</h4>
-            <p class="text-xs text-slate-500 mt-0.5">McKinsey & Company[span_6](start_span)[span_6](end_span) • Leadership, problem solving & agility</p>
+            <p class="text-xs text-slate-500 mt-0.5">McKinsey & Company • Strategic problem solving, communication & agility</p>
           </div>
           <div class="p-4 rounded-lg bg-white border border-slate-200 shadow-sm">
             <h4 class="font-bold text-slate-900">Cybersecurity Workshop Lead</h4>
-            <p class="text-xs text-slate-500 mt-0.5">Rowad Al-Jamiah Schools[span_7](start_span)[span_7](end_span) • Digital hygiene & cyber safety instruction</p>
+            <p class="text-xs text-slate-500 mt-0.5">Rowad Al-Jamiah Schools • Digital hygiene & safety instruction</p>
           </div>
         </div>
       </div>
@@ -297,6 +36,195 @@
   <footer class="border-t border-slate-200 py-8 bg-white text-center text-sm text-slate-500">
     <p>© 2026 Elaf Almanea. All rights reserved.</p>
   </footer>
+
+  <!-- ================= MODALS FOR MULTI-ASSET SHOWCASE ================= -->
+
+  <!-- Modal 1: Terhal Poster -->
+  <div id="modal-terhal-poster" class="modal opacity-0 pointer-events-none fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm">
+    <div class="bg-white rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-6 shadow-2xl relative">
+      <div class="flex justify-between items-center pb-3 border-b border-slate-200">
+        <div>
+          <h3 class="text-lg font-bold text-slate-900">Terhal – Capstone Poster & Architecture</h3>
+          <p class="text-xs text-slate-500">Majmaah University • College of Computer and Information Sciences</p>
+        </div>
+        <button onclick="closeModal('modal-terhal-poster')" class="p-1.5 text-slate-400 hover:text-slate-700 rounded-lg hover:bg-slate-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+      
+      <div class="mt-4 space-y-4 text-sm text-slate-700">
+        <div class="p-4 rounded-xl bg-purple-50 border border-purple-100">
+          <h4 class="font-bold text-brand-purple text-base">TERHAL (ترحال) – Smart Saudi Tourism Guide</h4>
+          <p class="text-xs text-slate-600 mt-1"><strong>Supervisor:</strong> Dr. Sara Althubaiti | <strong>Team:</strong> Elaf Almanea & Capstone Team</p>
+        </div>
+
+        <div class="p-3.5 rounded-lg border border-slate-200 bg-slate-50">
+          <strong class="block text-slate-900 text-xs uppercase mb-1">Recommendation Engine Execution:</strong>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            1. Context Filter &rarr; 2. Remove Visited &rarr; 3. Survey Boost &rarr; 4. Similarity Matching &rarr; 5. Weighted Rating &rarr; 6. Final Score &rarr; 7. Diversity Check.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+<div class="p-3 rounded-lg border border-slate-200">
+            <strong>Frontend & Client:</strong>
+            <p class="text-slate-600 mt-0.5">Flutter cross-platform mobile UI with custom trip planning and category filtering.</p>
+          </div>
+          <div class="p-3 rounded-lg border border-slate-200">
+            <strong>Backend & Infrastructure:</strong>
+            <p class="text-slate-600 mt-0.5">Asynchronous FastAPI microservices deployed on Render with MongoDB and Firebase Auth.</p>
+          </div>
+        </div>
+
+        <div class="text-center pt-2">
+          <a href="https://drive.google.com/file/d/1CjG-bhQeDX2ILZImJKxzLbbKXOIckSva/view?usp=drivesdk" target="_blank" class="inline-block px-5 py-2.5 rounded-lg bg-brand-purple text-white text-xs font-bold hover:bg-brand-accent transition shadow-sm">
+            Watch Full System Demo &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Terhal Booth / Recognition -->
+  <div id="modal-terhal-booth" class="modal opacity-0 pointer-events-none fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm">
+    <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl relative">
+      <div class="flex justify-between items-center pb-3 border-b border-slate-200">
+        <h3 class="text-lg font-bold text-slate-900">Capstone Project Discussion</h3>
+        <button onclick="closeModal('modal-terhal-booth')" class="p-1.5 text-slate-400 hover:text-slate-700 rounded-lg hover:bg-slate-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+      
+      <div class="mt-4 p-6 rounded-xl bg-purple-50/50 border border-purple-200 text-center">
+        <span class="text-xs font-bold uppercase tracking-widest text-brand-purple block">Majmaah University • ABET Accredited</span>
+        <h4 class="text-xl font-extrabold text-slate-900 mt-2">Graduation Project Discussion: Terhal</h4>
+        <p class="text-sm font-semibold text-brand-purple mt-1">Lead AI & Backend Engineer: Elaf Almanea</p>
+        <p class="text-xs text-slate-600 mt-3 leading-relaxed">
+          Official showcase and technical evaluation of the Terhal smart tourism platform at the CCIS Graduation Exhibition.
+        </p>
+        <div class="mt-4 pt-3 border-t border-purple-200 text-xs text-slate-500 font-medium">
+          Supervised by Dr. Sara Althubaiti (Class of 2026)
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Heart Disease Poster -->
+  <div id="modal-heart-poster" class="modal opacity-0 pointer-events-none fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm">
+    <div class="bg-white rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-6 shadow-2xl relative">
+      <div class="flex justify-between items-center pb-3 border-b border-slate-200">
+        <div>
+          <h3 class="text-lg font-bold text-slate-900">Scientific Research Poster</h3>
+          <p class="text-xs text-slate-500">Presented at Data Science Expo 2026, Majmaah University</p>
+        </div>
+        <button onclick="closeModal('modal-heart-poster')" class="p-1.5 text-slate-400 hover:text-slate-700 rounded-lg hover:bg-slate-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+      
+      <div class="mt-4 space-y-4 text-sm text-slate-700">
+        <div class="p-4 rounded-xl bg-purple-50 border border-purple-100">
+          <h4 class="font-bold text-brand-purple text-base">HEART DISEASE PREDICTION USING MACHINE LEARNING</h4>
+          <p class="text-xs text-slate-600 mt-1"><strong>Author:</strong> Elaf Almunea & Project Team | <strong>Supervisor:</strong> Dr. Amal Aljohani</p>
+        </div>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+            <strong class="block text-slate-900 text-xs uppercase">Dataset & Methods:</strong>
+            <p class="text-xs text-slate-600 mt-1">UCI Benchmark dataset (303 records, 15 features). Evaluated Logistic Regression, Decision Tree (rpart), and KNN using R Caret.</p>
+          </div>
+          <div class="p-3 rounded-lg border border-slate-200 bg-slate-50">
+            <strong class="block text-slate-900 text-xs uppercase">Key Result:</strong>
+            <p class="text-xs text-slate-600 mt-1">Logistic Regression achieved 85.6% accuracy, 91.7% sensitivity (only 4 false negatives), and 0.851 balanced accuracy (p = 9.58e-11).</p>
+          </div>
+        </div>
+
+        <div class="text-center pt-2">
+          <a href="https://runupw-0-0.shinyapps.io/heart-disease-prediction/" target="_blank" class="inline-block px-4 py-2 rounded-lg bg-brand-purple text-white text-xs font-bold hover:bg-brand-accent transition">
+            Launch Live Model Activation &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Expo Certificate -->
+  <div id="modal-heart-cert" class="modal opacity-0 pointer-events-none fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm">
+    <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl relative">
+      <div class="flex justify-between items-center pb-3 border-b border-slate-200">
+        <h3 class="text-lg font-bold text-slate-900">Certificate of Appreciation</h3>
+        <button onclick="closeModal('modal-heart-cert')" class="p-1.5 text-slate-400 hover:text-slate-700 rounded-lg hover:bg-slate-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+      
+      <div class="mt-4 p-6 rounded-xl bg-amber-50/50 border border-amber-200 text-center">
+        <span class="text-xs font-bold uppercase tracking-widest text-amber-800 block">Majmaah University • ABET Accredited</span>
+        <h4 class="text-xl font-extrabold text-slate-900 mt-2">Data Science Expo 2026</h4>
+        <p class="text-sm font-semibold text-brand-purple mt-1">Awarded to: Elaf Almunea</p>
+        <p class="text-xs text-slate-600 mt-3 leading-relaxed">
+          "On behalf of the College of Computer and Information Sciences, we extend our sincere thanks and appreciation to you for your outstanding participation in the Data Science Expo 2026."
+        </p>
+        <div class="mt-4 pt-3 border-t border-amber-200/60 text-xs text-slate-500 font-medium">
+          Dr. Amal Aljohani — Computer Science Department Chair (June 2026)
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5: AWS Proof & Badges -->
+  <div id="modal-aws-proof" class="modal opacity-0 pointer-events-none fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm">
+    <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl relative">
+      <div class="flex justify-between items-center pb-3 border-b border-slate-200">
+        <h3 class="text-lg font-bold text-slate-900">AWS & Udacity Credentials</h3>
+        <button onclick="closeModal('modal-aws-proof')" class="p-1.5 text-slate-400 hover:text-slate-700 rounded-lg hover:bg-slate-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+      
+      <div class="mt-4 space-y-3">
+        <div class="p-4 rounded-xl bg-slate-900 text-white flex items-center justify-between">
+          <div>
+            <span class="text-xs font-bold text-lime-400 uppercase tracking-wide block">Challenge Completion</span>
+            <h4 class="font-bold text-base">AWS AI & ML Scholars 2025</h4>
+            <p class="text-xs text-slate-300 mt-0.5">Udacity (Part of Accenture) | AWS</p>
+          </div>
+<div class="w-12 h-12 rounded-full bg-lime-400/20 border border-lime-400 flex items-center justify-center text-lime-400 text-xl font-bold">
+            ★
+          </div>
+        </div>
+
+        <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+          <span class="text-xs font-bold text-brand-purple uppercase tracking-wide block">Specialized Badge</span>
+          <h4 class="font-bold text-slate-900 text-sm mt-0.5">AWS Educate: Machine Learning Foundations</h4>
+          <p class="text-xs text-slate-600 mt-1">Verified foundational proficiency in predictive modeling, deep learning architectures, and cloud data workflows.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Script -->
+  <script>
+    function openModal(modalId) {
+      const modal = document.getElementById(modalId);
+      modal.classList.remove('opacity-0', 'pointer-events-none');
+      document.body.classList.add('modal-active');
+    }
+
+    function closeModal(modalId) {
+      const modal = document.getElementById(modalId);
+      modal.classList.add('opacity-0', 'pointer-events-none');
+      document.body.classList.remove('modal-active');
+    }
+
+    // Close when clicking outside
+    window.onclick = function(event) {
+      if (event.target.classList.contains('modal')) {
+        event.target.classList.add('opacity-0', 'pointer-events-none');
+        document.body.classList.remove('modal-active');
+      }
+    }
+  </script>
 
 </body>
 </html>
